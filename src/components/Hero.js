@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import Link from 'next/link';
 import Footer from './Footer';
 import { ChevronRight } from 'lucide-react';
 
@@ -57,12 +58,12 @@ export default function Hero() {
             </ul>
 
             <div className="mb-4 text-center md:text-left">
-              <a href="#">
+              <Link href="#">
                 <button className="w-full sm:w-auto bg-[#FF0066] hover:bg-[#e6005c] text-white px-8 py-3 rounded-full font-bold text-lg shadow-[0_0_16px_#00FFF7] flex items-center justify-center gap-2 transition-all">
                   GET STARTED
                   <ChevronRight className="w-5 h-5 text-white" />
                 </button>
-              </a>
+              </Link>
               <p className="text-xs mt-2 text-white">
                 1-minute quiz for personalized insights
               </p>
