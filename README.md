@@ -4,7 +4,7 @@ Fametonic is a modern landing page built with **Next.js 15** and **Tailwind CSS*
 
 ## 🚀 Live Demo
 
-🔗 [fametonic.vercel.app](https://fametonic.vercel.app)
+🔗 [fametonic](https://fametonic-eta.vercel.app/)
 
 ## 🛠 Tech Stack
 
